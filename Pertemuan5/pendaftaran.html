@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>contact</title>
+</head>
+
+<body>
+	<form action="simpan.php" method="POST">
+    	<fieldset>
+        <legend>Pendaftaran</legend>
+		<table>
+             <tr>
+             	<td><label>Nama Lengkap</label></td>
+                <td>:</td>
+                <td><input type="text" name="nama" size="40" placeholder="Masukan nama anda.. "/></td>
+             </tr>
+             <tr>	
+                <td><label>Username </label></td>
+                <td>:</td>
+                <td><input type="text" name="username" placeholder="Username" required/></td>
+              </tr>
+              <tr>	
+                <td><label>Email </label></td>
+                <td>:</td>
+                <td><input type="email" name="email" placeholder="Masukan email" required/></td>
+              </tr>
+             <tr>
+            	<td><label>Password </label></td>
+                <td>:</td>
+                <td><input type="password" name="password" placeholder="Password" required/></td>
+             </tr>
+         </table>
+           
+            <tr>
+            	<td><label>Jenis Kelamin</label></td>
+                <td>:</td>
+                <td><label><input type="radio" name="jenis_kelamin" value="Laki-laki"/>Laki-Laki</label></td>
+            </tr>
+            <tr>
+                <td><label><input type="radio" name="jenis_kelamin" value="Perempuan"/>Perempuan</label></td>
+            </tr>
+           
+ 
+            <p>
+            	<label>Agama :</label>
+                <select name="agama">
+                	<option value="Islam">Islam</option>
+                    <option value="Islam">Kristen</option>
+                    <option value="Islam">Hindu</option>
+                    <option value="Islam">Budha</option>
+                </select>
+            </p>
+            <p>
+            	<label>Biografi :</label>
+                <textarea name="biografi"></textarea>
+            </p>
+            <p>
+            	<input type="submit" name="submit" value="Daftar"/>
+                <input type="reset" value="Cancel"/>
+            </p>
+            	
+        </fieldset>
+   	</form>
+</body>
+</html>

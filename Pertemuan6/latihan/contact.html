@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>contact</title>
+<style>
+body{
+	background-image:url(../../Pertemuan3/img/Lighthouse.jpg);
+		background-size:cover;
+		
+}
+.container{
+		margin-left:-7px;
+		width:auto;
+		margin-top:-20px;
+}
+	.top-menu h1{
+		float:left;
+		color:#000;
+		padding-left: 20px;
+	}
+	.top-menu{
+		background-color: #ddd;
+		height: 68px;
+		width: auto;
+	}
+	header ul{
+		word-spacing: 20px;
+		margin-right:8%;
+		float:right;
+	}
+	header ul li{
+		display: inline-block;
+	}
+	header li a{
+		color:#000;
+	}
+	
+	a{
+		color : #FFF;
+		text-decoration: none;
+		font-size: 20px;
+		font-family: sans-serif;
+		padding: 14px 10px;
+	}
+
+	li{
+		list-style: none;
+		display: inline;
+	}
+	li a:{
+		float:right;
+		background : #aeaeae;
+		color : #FFF;
+	}
+	a:hover{
+		background: #FFF;
+		color : #09F;
+	}
+	ul{
+		padding :14px;
+	}
+	
+	fieldset{
+		background-color:#ddd;
+	}
+</style>
+</head>
+
+<body>
+<header>
+<div class="container">
+    	<div class="top-menu">
+			<h1> menit.com </h1>
+            <ul>
+					<li><a href="home.html">Home</a></li>
+					<li><a href="profil.html">Profil</a></li>
+                    <li><a href="article.html">Article</a></li>
+                    <li><a href="galery.html">Galery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+				</ul>
+        </div>
+    </header>
+	<form action="simpan.php" method="POST">
+    	<fieldset>
+        <legend>Pendaftaran</legend>
+		<table>
+             <tr>
+             	<td><label>Nama Lengkap</label></td>
+                <td>:</td>
+                <td><input type="text" name="nama" size="40" placeholder="Masukan nama anda.. "/></td>
+             </tr>
+             <tr>	
+                <td><label>Username </label></td>
+                <td>:</td>
+                <td><input type="text" name="username" placeholder="Username" required/></td>
+              </tr>
+              <tr>	
+                <td><label>Email </label></td>
+                <td>:</td>
+                <td><input type="email" name="email" placeholder="Masukan email" required/></td>
+              </tr>
+             <tr>
+            	<td><label>Password </label></td>
+                <td>:</td>
+                <td><input type="password" name="password" placeholder="Password" required/></td>
+             </tr>
+         </table>
+           
+            <tr>
+            	<td><label>Jenis Kelamin</label></td>
+                <td>:</td>
+                <td><label><input type="radio" name="jenis_kelamin" value="Laki-laki"/>Laki-Laki</label></td>
+            </tr>
+            <tr>
+                <td><label><input type="radio" name="jenis_kelamin" value="Perempuan"/>Perempuan</label></td>
+            </tr>
+           
+ 
+            <p>
+            	<label>Agama :</label>
+                <select name="agama">
+                	<option value="Islam">Islam</option>
+                    <option value="Islam">Kristen</option>
+                    <option value="Islam">Hindu</option>
+                    <option value="Islam">Budha</option>
+                </select>
+            </p>
+            <p>
+            	<label>Biografi :</label>
+                <textarea name="biografi"></textarea>
+            </p>
+            <p>
+            	<input type="submit" name="submit" value="Daftar"/>
+                <input type="reset" value="Cancel"/>
+            </p>
+            	
+        </fieldset>
+   	</form>
+</body>
+</html>

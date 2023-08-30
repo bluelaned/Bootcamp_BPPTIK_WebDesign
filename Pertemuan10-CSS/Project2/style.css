@@ -1,0 +1,169 @@
+*{
+	margin :0;
+	padding: 0;
+}
+
+.container{
+	height: 900px;
+}
+
+/*============= HEADER =============*/
+header img{
+	width: 1350px;
+	height: 250px;
+}
+
+/*============= MENU =============*/
+.menu-bar ul{
+	margin-top: -4px;
+	height: 37px;
+	background-color: brown;
+}
+
+.menu-bar{
+	text-align: center;
+	width:auto;
+}
+
+.menu-bar li{
+	height: auto;
+	display: inline-block;
+	list-style-type: none;
+	padding: 10px;
+}
+
+.menu-bar li:hover{
+	background-color: yellow;
+}
+
+.menu-bar a:hover{
+	color: blue;
+}
+
+.menu-bar li a{
+	color: white;
+	text-decoration: none;
+}
+
+/*-----------------------------------------*/
+.wrap{
+	margin:20px;
+}
+/*-----------------------------------------*/
+
+/*============= CONTENT =============*/
+.content{
+	float: left;
+	width: 62%;
+}
+
+.content h1{
+	text-align: justify;
+}
+#dropcap:first-letter{
+	font-size: 65px;
+	line-height: 50px;
+	font-weight: bold;
+	float:left;
+}
+.content #indent{
+	text-align:justify;
+	margin-right: 20px;
+	text-indent: 50px;
+}
+
+
+.preset{
+	padding: 20px 60px 20px 60px;
+	font-style:italic;
+	font-weight:bold;
+}
+
+/*============= FORM LOGIN =============*/
+.sidebar {
+	background-color: black;
+	text-align: center;
+	margin-right: 20px;
+	float: right;
+	width: 35%;	
+}
+
+#username{
+	text-align: center;
+	padding:3px;
+}
+
+#password{
+	text-align: center;
+	padding: 3px;
+}
+
+#login{
+	float: right;
+	width: 50%;
+	padding: 3px;
+}
+
+#icon-member{
+	padding: 1%;
+	margin-left:30%;
+	width: 42%;
+	height: 140px;
+}
+
+#icon-member h3{
+	padding-top: 7%;
+	color: white;
+	float: right;
+}
+
+.sidebar img{
+	align:left;
+}
+
+fieldset{
+	color: white;
+	padding: 10px;
+}
+
+/*============= KATEGORI =============*/
+
+.kategori{
+	margin-top: 50px;
+	float: right;
+	width: 35%;
+}
+
+#kategori2{
+	color: white;
+	background-color: brown;
+}
+
+.kategori li{
+	padding: 5px;
+	border: 1px solid black;
+	list-style-type: none;
+}
+
+.kategori li:hover{
+	background-color: #aeaeae;
+}
+
+.kategori a:hover{
+	color: green;
+}
+
+.kategori a{
+	color : black;
+	text-decoration: none;
+}
+
+/*============= FOOTER =============*/
+.footer{
+	padding: 10px;
+	color:white;
+	text-align: center;
+	background-color: brown;
+	width: auto;
+	height: 20px;
+}

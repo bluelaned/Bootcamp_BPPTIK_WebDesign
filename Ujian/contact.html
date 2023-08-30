@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+    <title>Home</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style type="text/css">
+        .content{
+            height: 538px;
+        }
+
+        form{
+           margin-left: 15%; 
+           margin-right: 15%;
+        }
+        
+
+
+        fieldset{
+            height: 500px;
+            padding-left: 15%; 
+        }
+        
+        table td{
+            padding-top: 50px;
+        }
+
+        footer{
+            text-align: center;
+            margin-top: -15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <audio src="audio/Lee Hi - Only.mp3" autoplay="autoplay"></audio>
+
+    <div class="container">
+	   <nav>
+        	<a href="index.html">Home</a> |
+            <a href="gallery.html">Gallery</a> |
+            <a href="news.html">News</a> |
+            <a href="about.html">Profil</a> |
+            <a href="contact.html">Contact</a> |
+        </nav>
+
+
+    
+    <div class="content" style="background-color: #aeaeae">
+    <form action="#" method="POST">
+        <fieldset>
+        <legend style="text-align: center;">Contact Person</legend>
+        <table>
+             <tr>
+                <td><label>Nama Lengkap</label></td>
+                <td>:</td>
+                <td><input type="text" name="nama" size="40" placeholder="masukan nama anda"/></td>
+             </tr>
+             <tr>   
+                <td><label>Alamat</label></td>
+                <td>:</td>
+                <td><input type="text" name="alamat" size="40" placeholder="masukan alamat" required/></td>
+              </tr>
+              <tr>  
+                <td><label>Email</label></td>
+                <td>:</td>
+                <td><input type="email" name="email" size="40" placeholder="masukan email" required/></td>
+              </tr>
+             <tr>
+                <td><label>No HP</label></td>
+                <td>:</td>
+                <td><input type="password" name="password" size="40" placeholder="password" required/></td>
+             </tr>
+             <tr>
+                <td><label>Pesan anda</label></td>
+                <td>:</td>
+                <td><textarea name="biografi"></textarea></td>
+            </tr>
+         </table>    
+            
+            <p align="center">
+                <input style="width: 75px; height: 40px;" type="submit" name="submit" value="Kirim"/>
+                <input style="width: 75px; height: 40px;" type="reset" value="Clear"/>
+            </p>    
+        </fieldset>
+    </form>
+
+    </div>
+        <footer style="text-align:">
+            <p>Copyright &copy; 2021 Josua Felix</p>
+        </footer>
+</body>
+</html>
